@@ -78,6 +78,7 @@ drawOne = function() {
 
    fill(0,0,0);
    text("State One", width/2, height - gTextOffset);
+   text("Mad", width/2, height - 300);
 }
 
 //-- drawTwo() will draw the image at index 1 from the array
@@ -86,6 +87,7 @@ drawTwo = function() {
 
    fill(240,120,0);
    text("State Two", width/2, height - gTextOffset);
+   text("Surprise", width/2, height - 300);
 }
 
 //-- drawOne() will draw the image at index 2 from the array
@@ -94,6 +96,7 @@ drawThree = function() {
 
    fill(40,230,120);
    text("State Three", width/2, height - gTextOffset);
+   text("Speechless", width/2, height - 300);
 }
 
 //-- drawOne() will draw the image at index 3 from the array
@@ -102,6 +105,7 @@ drawFour = function() {
 
    fill(255,255,178);
    text("State Four", width/2, height - gTextOffset);
+   text("Happy", width/2, height - 300);
 }
 
 //-- drawOne() will draw the image at index 4 from the array
@@ -110,6 +114,14 @@ drawFive = function() {
 
    fill(230,50,50);
    text("State Five", width/2, height - gTextOffset);
+   text("Cry", width/2, height - 400);
+}
+
+drawSix = function() {
+
+   fill(230,50,50);
+   text("Thank you for watching!!", width/2, height - 500);
+   
 }
 
 
@@ -131,5 +143,8 @@ function keyTyped() {
   }
   else if( key === '5' ) {
   	drawFunction = drawFive;
+  }
+  else if( key === '6' ) {
+  	drawFunction = drawSix;
   }
 }
