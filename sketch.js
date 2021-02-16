@@ -1,6 +1,6 @@
 /***********************************************************************************
-	SimpleStateMachine - TEMPLATE
-	by Scott Kildall
+	SimpleStateMachine 
+	by Yik
 
 	Template:
 
